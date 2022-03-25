@@ -1,0 +1,11 @@
+key_name	value_format
+tag	part of a special set [*]: list of tags
+ccdsid	official CCDS id [*]; CCDS*
+havana_gene	gene id in the havana db [0,1]; OTTHUMGXXXXXXXXXXX.X
+havana_transcript	transcript id in the havana db [0,1] ; OTTHUMTXXXXXXXXXXX.X
+protein_id	ENSPXXXXXXXXXXX.X [0,1]
+ont	pseudogene (or other) ontology ids [*]; {PGO:0000004 and others}
+transcript_support_level	{1,2,3,4,5,NA} [0,1] transcripts are scored according to how well mRNA and EST alignments match over its full length: 1 (all splice junctions of the transcript are supported by at least one non-suspect mRNA), 2 (the best supporting mRNA is flagged as suspect or the support is from multiple ESTs), 3 (the only support is from a single EST), 4 (the best supporting EST is flagged as suspect), 5 (no single transcript supports the model structure), NA (the transcript was not analyzed)
+remap_status	Mapping attributes [0,1] - only for GRCh38 annotation lifted back to GRCh37.
+hgnc_id	HGNC id in human [0,1]; HGNC:*
+mgi_id	MGI id in mouse [0,1]; MGI:*

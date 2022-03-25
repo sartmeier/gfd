@@ -1,0 +1,2 @@
+# README
+These tables describe the Gencode gtf format and the mandatory and optional fields in the 9th column and were extracted from [https://www.gencodegenes.org/pages/data_format.html](https://www.gencodegenes.org/pages/data_format.html) and [https://www.gencodegenes.org/pages/tags.html](https://www.gencodegenes.org/pages/tags.html) into parsable tables.

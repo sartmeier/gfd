@@ -1,0 +1,12 @@
+key_name	feature_type(s)	value_format	release
+gene_id	all	ENSGXXXXXXXXXXX.X b,c _Xg	all
+transcript_id	all except gene	ENSTXXXXXXXXXXX.X b,c _Xg	all
+gene_type	all	list of biotypes	all
+gene_status	all	{KNOWN, NOVEL, PUTATIVE}	until 25 and M11
+gene_name	all	string	all
+transcript_type	all except gene	list of biotypes	all
+transcript_statusd,e	all except gene	{KNOWN, NOVEL, PUTATIVE}	until 25 and M11
+transcript_name	all except gene	string	all
+exon_number	all except gene/transcript/Selenocysteine	integer (exon position in the transcript from its 5' end)	all
+exon_id	all except gene/transcript/Selenocysteine	ENSEXXXXXXXXXXX.X b _Xg	all
+level	all	1 (verified loci), 2 (manually annotated loci), 3 (automatically annotated loci)	all
